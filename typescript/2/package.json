@@ -1,7 +1,7 @@
 {
-  "name": "count-down-container",
+  "name": "top",
   "version": "1.0.0",
-  "description": "count-down-container",
+  "description": "to top",
   "main": "main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

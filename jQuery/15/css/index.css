@@ -1,5 +1,5 @@
 /************功能:w18系统******************/
-/************作者:loho********************/
+/************作者:eveningwater********************/
 /************日期:2017/3/25***************/
 /************公共样式***************/
 /*页面初始化*/
@@ -323,7 +323,7 @@ button.loginBtn:active{
 	right: 0;top: 0;
 	font-size: 20px;
 	opacity: 0;
-	filter:alpha(opacity:0);
+	filter:alpha(0);
 }
 .mouseRightlist .changespan input[type="file"]:hover{
 	cursor: pointer;

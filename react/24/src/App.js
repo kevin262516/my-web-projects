@@ -9,7 +9,7 @@ const langText = {
       "time-before-text":"上午",
       "time-after-text":"下午",
       "date-day-text":"日",
-      "days":["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"],
+      "days":["星期日","星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
       "months":["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"]
   },
   'en':{
@@ -114,7 +114,7 @@ export default class App extends Component {
                 <div className="center-point"></div>
             </div>
             <div className="time">
-              { hour }:{ minute }&nbsp;{ langText[currentLang]["time-"+(hour >= 12 ? "after" : "before")+"-text"] }
+              { hour }:{ minute >= 10 ? minute : '0' + minute }&nbsp;{ langText[currentLang]["time-"+(hour >= 12 ? "after" : "before")+"-text"] }
             </div>
             <div className="date">
                { langText[currentLang].days[day] },{ langText[currentLang].months[month]}

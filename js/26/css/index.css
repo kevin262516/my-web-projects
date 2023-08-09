@@ -1,22 +1,70 @@
 /*
 * 功能:图片画廊
-* 作者:loho
+* 作者:eveningwater
 * 日期:2017/9/5
 */
-body,html,div,main,section,header,footer,ul,li,button,span,p,h1,h2,h3,h4,h5,h6,textarea,figure,img,a{
-	margin: 0;padding: 0;
+body,
+html,
+div,
+main,
+section,
+header,
+footer,
+ul,
+li,
+button,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea,
+figure,
+img,
+a {
+	margin: 0;
+	padding: 0;
 }
-body,html,div,main,section,header,footer,ul,li,button,span,p,h1,h2,h3,h4,h5,h6,textarea,figure,img,a{
+
+body,
+html,
+div,
+main,
+section,
+header,
+footer,
+ul,
+li,
+button,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea,
+figure,
+img,
+a {
 	box-sizing: border-box;
 }
-body{
+
+body {
 	background-color: #feefee;
 }
-.fullscreen{
-	width: 100%;height: 100%;
+
+.fullscreen {
+	width: 100%;
+	height: 100%;
 	overflow: hidden;
 }
-.fullscreen > section{
+
+.gallery-item {
 	width: 200px;
 	position: absolute;
 	padding: 10px;
@@ -25,18 +73,21 @@ body{
 	background-color: #fff;
 	cursor: pointer;
 	transition: all .6s cubic-bezier(0, 0, .39, .66);
-	border-radius: 5px;	
+	border-radius: 5px;
 }
-section > img{
+
+.gallery-item>img {
 	height: auto;
 	max-width: 100%;
 	margin: 0 auto;
 	margin-bottom: 15px;
 }
-section > span{
+
+.gallery-item>span {
 	font-family: Comic Sans, Comic Sans MS, cursive;
 	color: #8F8476;
 }
+
 .navbar {
 	width: 100%;
 	position: fixed;
@@ -46,7 +97,8 @@ section > span{
 	z-index: 999;
 	bottom: 0;
 }
-.navbar > button{
+
+.navbar>button {
 	padding: 8px 6px;
 	background-color: transparent;
 	transition-duration: 0.5s;
@@ -56,6 +108,7 @@ section > span{
 	cursor: pointer;
 	outline: none;
 }
-.navbar > button:hover{
+
+.navbar>button:hover {
 	background-color: #be0a0a;
 }

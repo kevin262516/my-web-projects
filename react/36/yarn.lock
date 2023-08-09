@@ -2982,8 +2982,8 @@ bser@2.1.1:
 
 buffer-from@^1.0.0:
   version "1.1.2"
-  resolved "https://registry.nlark.com/buffer-from/download/buffer-from-1.1.2.tgz?cache=0&sync_timestamp=1627578510347&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbuffer-from%2Fdownload%2Fbuffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
-  integrity sha1-KxRqb9cugLT1XSVfNe1Zo6mkG9U=
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -3383,8 +3383,8 @@ combined-stream@^1.0.8:
 
 commander@^2.20.0:
   version "2.20.3"
-  resolved "https://registry.nlark.com/commander/download/commander-2.20.3.tgz?cache=0&sync_timestamp=1627358203890&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcommander%2Fdownload%2Fcommander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
-  integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 commander@^4.1.1:
   version "4.1.1"
@@ -4726,11 +4726,9 @@ events@^3.0.0:
   integrity sha1-Mala0Kkk4tLEGagTrrLE6HjqdAA=
 
 eventsource@^1.0.7:
-  version "1.1.0"
-  resolved "https://registry.nlark.com/eventsource/download/eventsource-1.1.0.tgz#00e8ca7c92109e94b0ddf32dac677d841028cfaf"
-  integrity sha1-AOjKfJIQnpSw3fMtrGd9hBAoz68=
-  dependencies:
-    original "^1.0.0"
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.1.2.tgz#bc75ae1c60209e7cb1541231980460343eaea7c2"
+  integrity sha512-xAH3zWhgO2/3KIniEKYPr8plNSzlGINOUqYj0m0u7AB81iRw8b/3E73W6AuU+6klLbaSFmZnaETQ2lXPfAydrA==
 
 evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
   version "1.0.3"
@@ -7200,9 +7198,9 @@ minimatch@3.0.4, minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.nlark.com/minimist/download/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 minipass-collect@^1.0.2:
   version "1.0.2"
@@ -7699,13 +7697,6 @@ optionator@^0.9.1:
     prelude-ls "^1.2.1"
     type-check "^0.4.0"
     word-wrap "^1.2.3"
-
-original@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.nlark.com/original/download/original-1.0.2.tgz#e442a61cffe1c5fd20a65f3261c26663b303f25f"
-  integrity sha1-5EKmHP/hxf0gpl8yYcJmY7MD8l8=
-  dependencies:
-    url-parse "^1.4.3"
 
 os-browserify@^0.3.0:
   version "0.3.0"
@@ -9892,9 +9883,9 @@ source-map-resolve@^0.6.0:
     decode-uri-component "^0.2.0"
 
 source-map-support@^0.5.6, source-map-support@~0.5.12, source-map-support@~0.5.19:
-  version "0.5.19"
-  resolved "https://registry.nlark.com/source-map-support/download/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
-  integrity sha1-qYti+G3K9PZzmWSMCFKRq56P7WE=
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -10368,9 +10359,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2, terser@^4.6.2, terser@^4.6.3:
-  version "4.8.0"
-  resolved "https://registry.nlark.com/terser/download/terser-4.8.0.tgz?cache=0&sync_timestamp=1624884217113&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fterser%2Fdownload%2Fterser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
-  integrity sha1-YwVjQ9fHC7KfOvZlhlpG/gOg3xc=
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
@@ -10740,7 +10731,7 @@ url-loader@4.1.1:
     mime-types "^2.1.27"
     schema-utils "^3.0.0"
 
-url-parse@^1.4.3, url-parse@^1.5.1:
+url-parse@^1.5.1:
   version "1.5.3"
   resolved "https://registry.nlark.com/url-parse/download/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
   integrity sha1-ccEwPTj7Zjmt4YPCmSyMwGht+GI=
